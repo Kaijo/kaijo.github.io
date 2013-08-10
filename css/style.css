@@ -52,5 +52,9 @@ header#otsa nav ul li a:hover {
 }
 div#main {
   margin: 0 auto;
-  width: 700px;
+  padding: 2em;
+  width: 40em;
+  border-style: dashed;
+  border-color: #111;
+  border-width: 0 1px;
 }
