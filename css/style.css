@@ -28,6 +28,9 @@ header#otsa {
   -moz-box-shadow: 0 1px 10px #080808;
   box-shadow: 0 1px 10px #080808;
 }
+header#otsa img {
+  float: left;
+}
 header#otsa * {
   text-align: center;
 }
