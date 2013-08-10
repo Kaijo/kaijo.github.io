@@ -28,11 +28,11 @@ header#otsa {
 header#otsa div#otsawrapper {
   width: 650px;
   margin: 0 auto;
-  -webkit-transform: translate(-50px, 0);
-  -moz-transform: translate(-50px, 0);
-  -o-transform: translate(-50px, 0);
-  -ms-transform: translate(-50px, 0);
-  transform: translate(-50px, 0);
+  -webkit-transform: translate(-64px, 0);
+  -moz-transform: translate(-64px, 0);
+  -o-transform: translate(-64px, 0);
+  -ms-transform: translate(-64px, 0);
+  transform: translate(-64px, 0);
 }
 header#otsa div#otsawrapper img {
   float: left;
