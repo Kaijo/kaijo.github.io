@@ -21,8 +21,9 @@ body {
 header#otsa {
 	padding: 1em 0 0;
 
+	border-bottom: 2px solid #222;
 	.gradient(#141414, #181818, #444);
-	border-bottom: 2px solid #333;
+	.box-shadow(0 1px 10px #080808);
 
 	h1 {
 		margin: 0;
@@ -47,13 +48,21 @@ header#otsa {
 			a {
 				padding: 0.5em 1em;
 
-				border-style: solid;
-				border-width: 1px 1px 0;
-				border-color: #333;
-
-				.border-radius(10px, 0, 0, 10px);
+//				border-style: solid;
+//				border-width: 1px 1px 0;
+//				border-color: #333;
 
 				text-decoration: none;
+
+//				background: #161616;
+				color: #2173be;
+
+//				.border-radius(10px, 0, 0, 10px);
+//				.box-shadow(0 -1px 0 #2173be);
+
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 	}
