@@ -116,6 +116,7 @@ div#main ul.painikkeet li a {
   width: 10em;
   background: #2173be;
   text-align: center;
+  text-decoration: none;
 }
 div#main div#blogilista article {
   border-top: 1px solid #534a00;
