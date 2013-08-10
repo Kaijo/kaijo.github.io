@@ -110,7 +110,7 @@ div#main ul.painikkeet {
   list-style: none;
 }
 div#main ul.painikkeet li {
-  display: inline;
+  float: left;
 }
 div#main ul.painikkeet li a {
   padding: 1em;
