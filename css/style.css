@@ -29,7 +29,7 @@ header#otsa {
   box-shadow: 0 1px 10px #080808;
 }
 header#otsa div#otsawrapper {
-  width: 40em;
+  width: 750px;
   margin: 0 auto;
 }
 header#otsa div#otsawrapper img {
@@ -37,7 +37,7 @@ header#otsa div#otsawrapper img {
   height: 100px;
 }
 header#otsa div#otsawrapper div {
-  margin: 0 0 0 1em;
+  margin: 0 0 0 ;
   text-align: center;
 }
 header#otsa div#otsawrapper div h1 {
@@ -69,7 +69,7 @@ header#otsa nav ul li a:hover {
 div#main {
   margin: 0 auto;
   padding: 2em;
-  width: 40em;
+  width: 700px;
   border-style: dashed;
   border-color: #111;
   border-width: 0 1px;
