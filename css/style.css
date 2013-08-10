@@ -95,5 +95,5 @@ div#main div#blogilista article a {
   transition: all 0.2s ease-out;
 }
 div#main div#blogilista article a:hover {
-  background: #111;
+  color: #534a00;
 }
