@@ -58,3 +58,13 @@ div#main {
   border-color: #111;
   border-width: 0 1px;
 }
+div#main h2,
+div#main h3 {
+  font-weight: normal;
+}
+div#main a {
+  color: #2173be;
+}
+div#main ul {
+  list-style: square;
+}
