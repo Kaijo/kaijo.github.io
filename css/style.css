@@ -76,3 +76,6 @@ div#main a {
 div#main ul {
   list-style: square;
 }
+div#main div#blogilista article {
+  border-top: 1px solid #534a00;
+}

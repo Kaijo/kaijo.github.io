@@ -4,6 +4,7 @@ title: Blogi
 ---
 <h1>Blogi</h1>
 
+<div id="blogilista">
 {% for post in site.categories.blogi %}
 <article>
   <a href="{{ post.url }}">
@@ -13,3 +14,4 @@ title: Blogi
   </a>
 </article>
 {% endfor %}
+</div>
