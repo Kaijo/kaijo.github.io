@@ -1,3 +1,9 @@
 body {
 	background: #252525;
+	font-family: sans-serif;
+}
+
+header#otsa h1 a {
+	color: #e8e8e8;
+	text-decoration: none;
 }
