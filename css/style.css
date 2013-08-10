@@ -33,6 +33,7 @@ header#otsa p {
 }
 header#otsa div#logo img {
   float: left;
+  height: 100px;
 }
 header#otsa div#logo h1 {
   margin: 0;
