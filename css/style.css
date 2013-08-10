@@ -12,11 +12,12 @@ body {
 header#otsa {
   padding: 1em 0 0;
   background: #141414;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #080808), color-stop(1, #333333));
-  background: -ms-linear-gradient(bottom, #080808, #333333);
-  background: -moz-linear-gradient(center bottom, #080808 0%, #333333 100%);
-  background: -o-linear-gradient(#333333, #080808);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#080808', GradientType=0);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #181818), color-stop(1, #444444));
+  background: -ms-linear-gradient(bottom, #181818, #444444);
+  background: -moz-linear-gradient(center bottom, #181818 0%, #444444 100%);
+  background: -o-linear-gradient(#444444, #181818);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#181818', GradientType=0);
+  border-bottom: 2px solid #333;
 }
 header#otsa h1 {
   margin: 0;
@@ -26,13 +27,21 @@ header#otsa h1 a {
   color: #e8e8e8;
   text-decoration: none;
   font-weight: normal;
+  text-shadow: 2px 2px #AAA;
 }
 header#otsa nav ul {
+  padding: 0;
+  margin: 2em 0 0.5em;
   text-align: center;
-  list-style: none;
 }
 header#otsa nav ul li {
   display: inline;
+}
+header#otsa nav ul li a {
+  padding: 0.5em 1em;
+  border-style: solid;
+  border-width: 1px 1px 0;
+  border-color: #333;
 }
 div#main {
   margin: 0 auto;

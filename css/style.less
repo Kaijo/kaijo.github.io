@@ -6,8 +6,7 @@
 
 
 
-// Varsinainen käytettävä tyylitiedosto on style.css.
-// Tätä käytetään vain pohjana!
+// Varsinainen sivun käyttämä tiedosto on style.css.
 // $ lessc style.less style.css
 
 
@@ -22,7 +21,8 @@ body {
 header#otsa {
 	padding: 1em 0 0;
 
-	.gradient(#141414, #080808, #333);
+	.gradient(#141414, #181818, #444);
+	border-bottom: 2px solid #333;
 
 	h1 {
 		margin: 0;
@@ -32,15 +32,25 @@ header#otsa {
 			color: #e8e8e8;
 			text-decoration: none;
 			font-weight: normal;
+			text-shadow: 2px 2px #AAA;
 		}
 	}
 
 	nav ul {
+		padding: 0;
+		margin: 2em 0 0.5em;
 		text-align: center;
-		list-style: none;
 
 		li {
 			display: inline;
+
+			a {
+				padding: 0.5em 1em;
+
+				border-style: solid;
+				border-width: 1px 1px 0;
+				border-color: #333;
+			}
 		}
 	}
 }
