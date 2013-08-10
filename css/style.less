@@ -35,6 +35,8 @@ body {
 
 p {
 	text-shadow: 2px 2px 0 #111;
+
+	&.aika { font-size: 90%; }
 }
 
 header#otsa {
@@ -106,5 +108,10 @@ div#main {
 
 	div#blogilista article {
 		border-top: 1px solid @keltainen;
+
+		a {
+			.transition();
+			&:hover { background: #111; }
+		}
 	}
 }

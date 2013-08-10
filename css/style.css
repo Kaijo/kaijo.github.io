@@ -12,6 +12,9 @@ body {
 p {
   text-shadow: 2px 2px 0 #111;
 }
+p.aika {
+  font-size: 90%;
+}
 header#otsa {
   padding: 1em 0 0;
   border-bottom: 2px solid #222;
@@ -78,4 +81,13 @@ div#main ul {
 }
 div#main div#blogilista article {
   border-top: 1px solid #534a00;
+}
+div#main div#blogilista article a {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+div#main div#blogilista article a:hover {
+  background: #111;
 }
