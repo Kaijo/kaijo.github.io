@@ -30,7 +30,7 @@ header#otsa h1 a {
   color: #e8e8e8;
   text-decoration: none;
   font-weight: normal;
-  text-shadow: 2px 2px #0A0A0A;
+  text-shadow: 2px 2px 0 #0A0A0A;
 }
 header#otsa nav ul {
   padding: 0;
@@ -44,6 +44,7 @@ header#otsa nav ul li a {
   padding: 0.5em 1em;
   text-decoration: none;
   color: #2173be;
+  text-shadow: 2px 2px 5px #000;
 }
 header#otsa nav ul li a:hover {
   text-decoration: underline;
