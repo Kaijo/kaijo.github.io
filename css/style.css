@@ -40,6 +40,7 @@ header#otsa div#otsawrapper {
 header#otsa div#otsawrapper img {
   float: left;
   height: 100px;
+  width: 100px;
 }
 header#otsa div#otsawrapper div {
   margin: 0 0 0 ;
