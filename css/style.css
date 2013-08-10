@@ -1,23 +1,40 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
 body {
-	background: #252525;
-	color: #f0e7d5;
-	font-family: sans-serif;
+  background: #252525;
+  color: #f0e7d5;
+  font-family: sans-serif;
 }
-
+header#otsa {
+  padding: 1em 0;
+  background: #141414;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #080808), color-stop(1, #181818));
+  background: -ms-linear-gradient(bottom, #080808, #181818);
+  background: -moz-linear-gradient(center bottom, #080808 0%, #181818 100%);
+  background: -o-linear-gradient(#181818, #080808);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#181818', endColorstr='#080808', GradientType=0);
+}
 header#otsa h1 {
-	text-align: center;
+  margin: 0;
+  text-align: center;
 }
-
 header#otsa h1 a {
-	color: #e8e8e8;
-	text-decoration: none;
+  color: #e8e8e8;
+  text-decoration: none;
+  font-weight: normal;
 }
-
 header#otsa nav ul {
-	text-align: center;
-	list-style: none;
+  text-align: center;
+  list-style: none;
 }
-
-header#otsa nav li {
-	display: inline;
+header#otsa nav ul li {
+  display: inline;
+}
+div#main {
+  margin: 0 auto;
+  width: 700px;
 }

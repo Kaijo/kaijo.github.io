@@ -1,0 +1,51 @@
+// Tämä tiedosto on kirjoitettu LESS:llä.
+// LESS on kiva: mahdollistaa CSS-koodin generoimisen
+// pienellä vaivalla. Kato www.lesscss.org
+
+// Käytössä myös www.lesselements.com
+
+
+
+// Varsinainen käytettävä tyylitiedosto on style.css.
+// Tätä käytetään vain pohjana!
+// $ lessc style.less style.css
+
+
+@import 'elements.less';
+
+body {
+	background: #252525;
+	color: #f0e7d5;
+	font-family: sans-serif;
+}
+
+header#otsa {
+	padding: 1em 0;
+
+	.gradient(#141414, #080808, #181818);
+
+	h1 {
+		margin: 0;
+		text-align: center;
+
+		a {
+			color: #e8e8e8;
+			text-decoration: none;
+			font-weight: normal;
+		}
+	}
+
+	nav ul {
+		text-align: center;
+		list-style: none;
+
+		li {
+			display: inline;
+		}
+	}
+}
+
+div#main {
+	margin: 0 auto;
+	width: 700px;
+}
