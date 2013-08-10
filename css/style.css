@@ -28,17 +28,22 @@ header#otsa {
   -moz-box-shadow: 0 1px 10px #080808;
   box-shadow: 0 1px 10px #080808;
 }
-header#otsa p {
-  text-align: center;
+header#otsa div#otsawrapper {
+  width: 40em;
+  margin: 0 auto;
 }
-header#otsa div#logo img {
+header#otsa div#otsawrapper img {
   float: left;
   height: 100px;
 }
-header#otsa div#logo h1 {
+header#otsa div#otsawrapper div {
+  margin: 0 0 0 1em;
+  text-align: center;
+}
+header#otsa div#otsawrapper div h1 {
   margin: 0;
 }
-header#otsa div#logo h1 a {
+header#otsa div#otsawrapper div h1 a {
   color: #e8e8e8;
   text-decoration: none;
   font-weight: normal;
