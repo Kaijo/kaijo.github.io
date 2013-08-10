@@ -29,8 +29,13 @@ header#otsa {
   box-shadow: 0 1px 10px #080808;
 }
 header#otsa div#otsawrapper {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
+  -webkit-transform: translate(-50px, 0);
+  -moz-transform: translate(-50px, 0);
+  -o-transform: translate(-50px, 0);
+  -ms-transform: translate(-50px, 0);
+  transform: translate(-50px, 0);
 }
 header#otsa div#otsawrapper img {
   float: left;
