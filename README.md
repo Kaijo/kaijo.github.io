@@ -1,6 +1,3 @@
----
-layout: default
----
 Avoimet oppimateriaalit ry -websivu
 ===================================
 
