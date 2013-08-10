@@ -125,6 +125,9 @@ div#main ul.painikkeet li a {
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 div#main ul.painikkeet li a:hover {
   background: #195993;
