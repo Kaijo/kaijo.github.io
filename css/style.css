@@ -9,6 +9,9 @@ body {
   color: #f0e7d5;
   font-family: sans-serif;
 }
+p {
+  text-shadow: 2px 2px 0 #000;
+}
 header#otsa {
   padding: 1em 0 0;
   border-bottom: 2px solid #222;
@@ -62,6 +65,7 @@ div#main h1,
 div#main h2,
 div#main h3 {
   font-weight: normal;
+  text-shadow: 3px 3px 0 #000;
 }
 div#main h1 {
   color: #FFF;
