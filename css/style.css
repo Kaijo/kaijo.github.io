@@ -28,16 +28,16 @@ header#otsa {
   -moz-box-shadow: 0 1px 10px #080808;
   box-shadow: 0 1px 10px #080808;
 }
-header#otsa img {
-  float: left;
-}
-header#otsa * {
+header#otsa p {
   text-align: center;
 }
-header#otsa h1 {
+header#otsa div#logo img {
+  float: left;
+}
+header#otsa div#logo h1 {
   margin: 0;
 }
-header#otsa h1 a {
+header#otsa div#logo h1 a {
   color: #e8e8e8;
   text-decoration: none;
   font-weight: normal;
@@ -46,6 +46,7 @@ header#otsa h1 a {
 header#otsa nav ul {
   padding: 0;
   margin: 2em 0 0.5em;
+  text-align: center;
 }
 header#otsa nav ul li {
   display: inline;
