@@ -27,7 +27,7 @@ header#otsa h1 a {
   color: #e8e8e8;
   text-decoration: none;
   font-weight: normal;
-  text-shadow: 2px 2px #AAA;
+  text-shadow: 2px 2px #0A0A0A;
 }
 header#otsa nav ul {
   padding: 0;
@@ -42,6 +42,22 @@ header#otsa nav ul li a {
   border-style: solid;
   border-width: 1px 1px 0;
   border-color: #333;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 10px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  text-decoration: none;
 }
 div#main {
   margin: 0 auto;
