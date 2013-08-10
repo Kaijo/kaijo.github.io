@@ -22,9 +22,11 @@ header#otsa {
   -moz-box-shadow: 0 1px 10px #080808;
   box-shadow: 0 1px 10px #080808;
 }
+header#otsa * {
+  text-align: center;
+}
 header#otsa h1 {
   margin: 0;
-  text-align: center;
 }
 header#otsa h1 a {
   color: #e8e8e8;
@@ -35,7 +37,6 @@ header#otsa h1 a {
 header#otsa nav ul {
   padding: 0;
   margin: 2em 0 0.5em;
-  text-align: center;
 }
 header#otsa nav ul li {
   display: inline;
