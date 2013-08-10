@@ -66,7 +66,7 @@ header#otsa nav ul li {
 header#otsa nav ul li a {
   padding: 0.5em 1em;
   text-decoration: none;
-  color: #2173be;
+  color: #92be21;
   text-shadow: 2px 2px 5px #000;
 }
 header#otsa nav ul li a:hover {
@@ -96,7 +96,7 @@ div#main h3 {
   color: #A5A5A5;
 }
 div#main a {
-  color: #2173be;
+  color: #92be21;
 }
 div#main p,
 div#main a,
@@ -117,7 +117,7 @@ div#main ul.painikkeet li a {
   display: block;
   padding: 1em;
   width: 8em;
-  background: #2173be;
+  background: #92be21;
   color: #FFF;
   text-align: center;
   text-decoration: none;
@@ -130,7 +130,7 @@ div#main ul.painikkeet li a {
   border-radius: 10px;
 }
 div#main ul.painikkeet li a:hover {
-  background: #195993;
+  background: #719319;
 }
 div#main div#blogilista article {
   border-top: 1px solid #534a00;
@@ -145,5 +145,5 @@ div#main div#blogilista article a {
   transition: all 0.2s ease-out;
 }
 div#main div#blogilista article a:hover {
-  color: #2173be;
+  color: #92be21;
 }
