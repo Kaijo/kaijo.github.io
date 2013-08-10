@@ -131,15 +131,23 @@ div#main {
 			list-style: none;
 
 			li {
-				float: left;
+				margin: 1em;
+				display: inline;
 
 				a {
+					display: block;
 					padding: 1em;
-					width: 10em;
+					width: 8em;
 					background: @sininen;
+					color: #FFF;
 
 					text-align: center;
 					text-decoration: none;
+					.transition();
+
+					&:hover {
+						background: darken(@sininen, 10%);
+					}
 				}
 			}
 		}
