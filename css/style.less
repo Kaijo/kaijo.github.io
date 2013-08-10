@@ -127,12 +127,20 @@ div#main {
 	ul {
 		list-style: square;
 
-		&.painikkeet li a {
-			padding: 1em;
-			width: 10em;
-			background: @sininen;
+		&.painikkeet {
+			list-style: none;
 
-			text-align: center;
+			li {
+				display: inline;
+
+				a {
+					padding: 1em;
+					width: 10em;
+					background: @sininen;
+
+					text-align: center;
+				}
+			}
 		}
 	}
 

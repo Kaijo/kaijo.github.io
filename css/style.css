@@ -105,6 +105,12 @@ div#main a {
 div#main ul {
   list-style: square;
 }
+div#main ul.painikkeet {
+  list-style: none;
+}
+div#main ul.painikkeet li {
+  display: inline;
+}
 div#main ul.painikkeet li a {
   padding: 1em;
   width: 10em;
