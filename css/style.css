@@ -99,7 +99,8 @@ div#main a {
   color: #2173be;
 }
 div#main p,
-div#main a {
+div#main a,
+div#main ul {
   font-size: 90%;
 }
 div#main ul {
