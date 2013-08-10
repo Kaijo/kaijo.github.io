@@ -95,6 +95,10 @@ div#main h3 {
 div#main a {
   color: #2173be;
 }
+div#main p,
+div#main a {
+  font-size: 90%;
+}
 div#main ul {
   list-style: square;
 }
