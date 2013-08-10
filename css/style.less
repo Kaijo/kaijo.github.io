@@ -123,7 +123,18 @@ div#main {
 	h3 { color: #A5A5A5; }
 	a { color: @sininen; }
 	p, a { font-size: 90%; }
-	ul { list-style: square; }
+
+	ul {
+		list-style: square;
+
+		&.painikkeet li a {
+			padding: 1em;
+			width: 10em;
+			background: @sininen;
+
+			text-align: center;
+		}
+	}
 
 	div#blogilista article {
 		border-top: 1px solid @keltainen;
