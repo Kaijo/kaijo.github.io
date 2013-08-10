@@ -97,6 +97,10 @@ div#main h3 {
 }
 div#main a {
   color: #92be21;
+  text-decoration: none;
+}
+div#main a:hover {
+  text-decoration: underline;
 }
 div#main p,
 div#main a,

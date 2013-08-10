@@ -122,7 +122,12 @@ div#main {
 	h1 { color: #FFF; }
 	h2 { color: @kirkaskeltainen; }
 	h3 { color: #A5A5A5; }
-	a { color: @sininen; }
+	a {
+		color: @sininen;
+		text-decoration: none;
+
+		&:hover { text-decoration: underline; }
+	}
 	p, a, ul { font-size: 90%; }
 
 	ul {
