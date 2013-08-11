@@ -76,7 +76,7 @@ header#otsa nav ul li a:hover {
 div#main {
   margin: 0 auto;
   padding: 2em;
-  width: 700px;
+  max-width: 45em;
   border-style: dashed;
   border-color: #111;
   border-width: 0 1px;
