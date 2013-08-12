@@ -20,14 +20,8 @@
 @kirkaskeltainen: #DDD063;
 
 // asetukset loppuu
-
-
-
-
-
-
-
 @import 'elements.less';
+
 
 body {
 	background: #252525;
@@ -49,19 +43,6 @@ header#otsa {
 	.box-shadow(0 1px 10px #080808);
 
 	div#otsawrapper {
-		width: 650px;
-		margin: 0 auto;
-
-		.translate(-64px, 0);
-
-		img {
-			margin-top: 5px;
-			float: left;
-			height: 82px;
-			width: 127px;
-		}
-
-
 		div {
 			margin: 0;
 			text-align: center;
@@ -172,4 +153,23 @@ div#main {
 			&:hover { color: @vihrea; }
 		}
 	}
+}
+
+
+
+// Olemme oletuksena mobiiliystävällisiä.
+// Tässä tehdään ulkoasua ilmavammaksi, mikäli
+// käyttäjän näyttö on leveämpi kuin 650 pikseliä.
+
+@media (min-width: 650px) {
+
+
+div#otsa div#otsawrapper {
+	width: 650px;
+	margin: 0 auto;
+
+	background: url('/images/logo.png') left center no-repeat;
+}
+
+
 }
