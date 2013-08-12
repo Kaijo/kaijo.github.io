@@ -6,7 +6,7 @@
 
 
 
-// Varsinainen sivun käyttämä tiedosto on style.css.
+// Lopullisen sivun käyttämä tiedosto on style.css.
 // $ lessc style.less style.css
 
 
@@ -15,7 +15,7 @@
 
 @leveys: 45em;
 @sininen: #2173be;
-@vihrea: #92be21; // on nyt oikeasti virheä, lol
+@vihrea: #92be21;
 @keltainen: #534A00;
 @kirkaskeltainen: #DDD063;
 
@@ -30,8 +30,6 @@ body {
 }
 
 p {
-//	text-shadow: 2px 2px 0 #111;
-
 	&.aika { font-size: 90%; }
 }
 
@@ -43,24 +41,22 @@ header#otsa {
 	.box-shadow(0 1px 10px #080808);
 
 	div#otsawrapper {
-		div {
+		margin: 0;
+		text-align: center;
+
+		h1 {
 			margin: 0;
-			text-align: center;
 
-			h1 {
-				margin: 0;
-
-				a {
-					color: #e8e8e8;
-					text-decoration: none;
-					font-weight: normal;
-					text-shadow: 2px 2px 0 #0A0A0A;
-				}
+			a {
+				color: #e8e8e8;
+				text-decoration: none;
+				font-weight: normal;
+				text-shadow: 2px 2px 0 #0A0A0A;
 			}
+		}
 
-			p {
-				letter-spacing: 0.1em;
-			}
+		p {
+			letter-spacing: 0.1em;
 		}
 	}
 

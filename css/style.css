@@ -25,20 +25,20 @@ header#otsa {
   -moz-box-shadow: 0 1px 10px #080808;
   box-shadow: 0 1px 10px #080808;
 }
-header#otsa div#otsawrapper div {
+header#otsa div#otsawrapper {
   margin: 0;
   text-align: center;
 }
-header#otsa div#otsawrapper div h1 {
+header#otsa div#otsawrapper h1 {
   margin: 0;
 }
-header#otsa div#otsawrapper div h1 a {
+header#otsa div#otsawrapper h1 a {
   color: #e8e8e8;
   text-decoration: none;
   font-weight: normal;
   text-shadow: 2px 2px 0 #0A0A0A;
 }
-header#otsa div#otsawrapper div p {
+header#otsa div#otsawrapper p {
   letter-spacing: 0.1em;
 }
 header#otsa nav ul {
