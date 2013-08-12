@@ -13,7 +13,7 @@
 
 // ASETUKSIA
 
-@leveys: 45em;
+@leveys: 700px;
 @sininen: #2173be;
 @vihrea: #92be21;
 @keltainen: #534A00;
@@ -84,7 +84,7 @@ header#otsa {
 
 div#main {
 	margin: 0 auto;
-	padding: 2em;
+	padding: 0.5em;
 	max-width: @leveys;
 
 	border-style: dashed;
@@ -155,17 +155,22 @@ div#main {
 
 // Olemme oletuksena mobiiliystävällisiä.
 // Tässä tehdään ulkoasua ilmavammaksi, mikäli
-// käyttäjän näyttö on leveämpi kuin 650 pikseliä.
+// käyttäjän näyttö on leveä.
 
-@media (min-width: 650px) {
-
-
-header#otsa div#otsawrapper {
-	width: 650px;
-	margin: 0 auto;
-
-	background: url('/images/logo.png') left center no-repeat;
+@media (max-width: @leveys) {
+	div#main { width: 100%; }
 }
 
+@media (min-width: @leveys) {
+
+	header#otsa div#otsawrapper {
+		width: @leveys;
+		min-height: 82px;
+		margin: 0 auto;
+
+		background: url('/images/logo.png') left center no-repeat;
+	}
+
+	div#main { padding: 2em; max-width: @leveys; }
 
 }
