@@ -137,8 +137,8 @@ div#main div#blogilista article a {
 div#main div#blogilista article a:hover {
   color: #92be21;
 }
-@media screen and (min-width: 650px) {
-  div#otsa div#otsawrapper {
+@media (min-width: 650px) {
+  header#otsa div#otsawrapper {
     width: 650px;
     margin: 0 auto;
     background: url('/images/logo.png') left center no-repeat;
