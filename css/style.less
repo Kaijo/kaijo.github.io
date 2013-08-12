@@ -85,7 +85,6 @@ header#otsa {
 div#main {
 	margin: 0 auto;
 	padding: 0.5em;
-	max-width: @leveys;
 
 	border-style: dashed;
 	border-color: #111;
@@ -157,10 +156,6 @@ div#main {
 // Tässä tehdään ulkoasua ilmavammaksi, mikäli
 // käyttäjän näyttö on leveä.
 
-@media (max-width: @leveys) {
-	div#main { width: 100%; }
-}
-
 @media (min-width: @leveys) {
 
 	header#otsa div#otsawrapper {
@@ -171,6 +166,6 @@ div#main {
 		background: url('/images/logo.png') left center no-repeat;
 	}
 
-	div#main { padding: 2em; max-width: @leveys; }
+	div#main { padding: 2em; width: @leveys; }
 
 }
